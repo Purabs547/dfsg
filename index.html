@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Purab Sharma 
+        B.Tech 3rd Year student from Avantika University
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Build a Personal portfolio using react.</p>
+        <img class="im1" src=" https://cdn.discordapp.com/attachments/1082229435798913127/1143784552037367878/image.png">
+      </div>
+
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Redesigned a website of arngren</p>
+        <img class="im2" src="https://cdn.discordapp.com/attachments/1082229435798913127/1143784551752159312/image1.png">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 My Portfolio</p>
+  </footer>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #83c1e8;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.im1 {
+    width: 500px;
+    height: 300px;
+}
+.im2 {
+    width: 500px;
+    height: 300px;
+}
+</style>
+</body>
+</html>
